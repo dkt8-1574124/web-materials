@@ -1,16 +1,35 @@
 /* make sure you add the link tag to link to exercise.css which is in ../base-css directory*/
-
+#first-header {
+	color: purple;
+	font-family: 'Roboto';
+}
 /* add an id to the top level h1 header called first-header*/
-
+.second-header {
+	background-color: gold;
+}
 /* change the color of the first-header to purple and set font-family to Roboto*/
-
+#purple-header {
+	color: purple;
+}
 /* add a class to both h2 headers called second-header */
-
+h1, h2 {
+	padding: 10px;
+}
 /* change the background color of each h2 to gold */
-
+img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 1s ease-out;
+}
 
 /* only make the second h2 header have purple text*/
-
+img: hover {
+	transform: scale(1.2, 1.2.);
+	-ms-transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	transition: 1s ease-out
+}
 /* make sure both h1 and h2 headers have padding of 10px */
 
 
